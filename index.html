@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smarterthandevil</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/rush.css">
+    <script src="./assets/js/api.js"></script>
+    <script src="assets/js/x.js"></script>
+
+
+    
+
+</head>
+<input type="checkbox" autocomplete="off" id="overlay-toggle">
+<div class="overlay fullscreen">
+    <label for="overlay-toggle" onclick="audioPlay(); ">
+        <span class="overlayno-hover hover" style="font-family: monospace; font-size: 0.6em;"></span>
+        <span class="overlayhover hover" style="font-family: monospace; font-size: 0.6em;">Bio Click</span>
+    </label>
+</div>
+<style>
+  body {
+            background-image: url('./assets/rushzz/img1.jpg');
+            background-size: cover;
+            background-position: center; 
+            background-repeat: no-repeat;  
+            margin: 0;
+            height: 100vh;  
+        }
+</style>
+
+<script>
+
+    function audioPlay() {
+
+        var audio = new Audio('./assets/rushzz/Assault Monopólio.mp3');
+        audio.play();
+    }
+</script>
+    
+    <div class="card">
+        <header>
+        <div class="center">
+            <img src="./assets/rushzz/119c91f2a04ab793037038320cf9246d.jpg">
+    </header>
+    <div class="nick">
+        <p>najs</p>
+        <div class="description">просто еще один день на автомате</div>
+    </div>
+    <h1>
+        <div class="badges">
+                                        <img src="https://raw.githubusercontent.com/kauexz/badges/main/svg/discordearlysupporter.svg"
+                                            width="30" height="30">
+
+                                        <img src="https://raw.githubusercontent.com/kauexz/badges/main/svg/discordnitro.svg"
+                                            width="30" height="30">
+
+                                        <img src="https://raw.githubusercontent.com/kauexz/badges/main/svg/boosts/discordboost1.svg"
+                                            width="30" height="30">
+        </div>
+    </h1>
+    <footer>
+        <a href="https://www.instagram.com/nnzzxs/" target="_blank">
+            <img src="./assets/ico/instagram.svg" alt="instagram"
+            width="40px" height="40px">
+        </footer>
+    </div>
+</body>
+</html>
+
+<script>
+    VanillaTilt.init(document.querySelectorAll('.card'), {
+        glare: true,
+        maxGlare: 0.3,
+        gyroscope: false,
+        scale: 1.02,
+    });
+</script>

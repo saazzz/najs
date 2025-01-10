@@ -1,0 +1,105 @@
+
+* {
+    margin: initial;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(#);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: ';
+}
+
+.card {
+    text-align: center;
+    padding: 33px;
+    border-radius: 30px;
+    box-shadow: transparent;
+    color: #000000;
+    position: relative;
+    margin: 33px;
+    max-width: 400px;
+    background:  linear-gradient(to bottom, #00000000 0%, transparent 100%);
+    cursor: pointer;
+    
+}
+
+
+
+div.badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 19px;
+}
+
+header img {
+    margin: 77px 100px;
+    padding: 0%;
+    width: 95px;
+    height: 95px;
+    margin: 33px;
+    border-radius: 599%;
+    cursor: crosshair;
+    display: inline-block;
+    
+}
+
+[data-tilt] {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.center {
+    align-items: center;
+    overflow: hidden;
+    border: 9px solid 0e1217(0, 0, 0);
+}
+
+p{
+    
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 -0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: initial;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.nick {
+    align-items:center;
+    padding: 0px 100px;
+    margin-left: 0px 100px;
+}
+
+h1 {
+    padding: 0px 90px;
+}
+.description {
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0 0 -0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
